@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #e8effd 0%, #d6e3f5 100%);
+}
+
+.text {
+    font-size: 120px;
+    background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTE4NDRpZHZsMGU1NWZxNXcweTY5YXV1eTZhdnhxczM3ejB2MWlqdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3qYN8S0j3bpK/giphy.gif") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -4px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
